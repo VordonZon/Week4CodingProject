@@ -81,7 +81,7 @@ public class Java4CodingProject {
 		System.out.println("Is first array larger? " + compareDoubleArr(doubleArr1,doubleArr2));
 		
 	//12. Prints true if the boolean is true and double is greater than 10.50
-		System.out.println(willBuyDrink(false,11.00));
+		System.out.println("Will Buy Drink? " + willBuyDrink(true,11.00));
 	
 	//13. Returns a list of names concatenated with a last name
 		String[] firstNames = {"Ted", "Greg", "Alan", "Peter"};
@@ -147,7 +147,7 @@ public class Java4CodingProject {
 		String[] fullNames = new String[firstNames.length];
 		for(int i = 0; i < firstNames.length; i++) {
 			fullNames[i] = firstNames[i].concat(" " + lastName);
-			System.out.println("Sibling FullName" + fullNames[i]);
+			System.out.println("Sibling FullName " + fullNames[i]);
 		}
 		return fullNames;
 	}
